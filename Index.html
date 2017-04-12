@@ -11,6 +11,13 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <style>
+  body {
+    min-width: 1000px;
+  }
+  .sitebody {
+    max-width: 1400px;
+    margin: auto;
+  }
   header {
     background-color: black;
     height: 60px;
@@ -40,7 +47,7 @@
     width: 220px;
   }
   .maincontent {
-    margin: 60px 60px 30px 60px;
+    margin: 60px 60px 0px 60px;
 }
   .logo {
     height: auto;
@@ -64,6 +71,36 @@
     p {
       display: inline;
     }
+    .productdisplay {
+      max-height: 700px;
+      margin: 0px 60px;
+      padding: 20px 0px;
+      /* height: auto;
+      display: flex;
+      justify-content: space-between; */
+    }
+    .product {
+      height: auto;
+      width: 49%;
+      margin: auto;
+    }
+    .new {
+      position: absolute;
+      font-size: 30px;
+      margin: -375px 0px 0px 0px;
+      color: white;
+      text-align: center;
+    }
+    .link {
+      position: absolute;
+      font-size: 20px;
+      margin: -75px 250px 0px 250px;
+      border: solid;
+      padding: 10px;
+      border-color: white;
+      color: white;
+    }
+
     .socialmediabar {
       height: 50px;
       border-top: solid;
@@ -181,6 +218,7 @@
       <p class="callus"> CALL US: 800-555-1234 </p>
     </div>
   </header>
+<div class="sitebody">
   <div class="maincontent">
     <img src="logo.png" class="logo">
     <ul class="navigationbar">
@@ -191,6 +229,21 @@
         <a href="#" class="navlinks"> <li> EARINGS </li> </a>
     </ul>
   </div>
+
+  <div class="productdisplay">
+
+  <div>
+    <img src="204d9ea0dd11c66e2442f061d3b881fb.jpg" class="product">
+    <div class="new"> NEW ARRIVALS </div>
+    <div class="link"> TAKE A LOOK </div>
+  </div>
+  <div>
+    <img src="c11e083c7ea8ec963eed81f2ff4133062.jpg" class="product">
+    <div class="new"> NEW ARRIVALS </div>
+    <div class="link"> TAKE A LOOK </div>
+  </div>
+
+</div>
 
   <div class="socialmediabar">
     <div class="socialmedia">
@@ -225,5 +278,6 @@
     </div>
     </div>
   </footer>
+</div>
 </body>
 </html>
