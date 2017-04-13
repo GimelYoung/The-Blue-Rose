@@ -1,0 +1,37 @@
+.product {
+  height: auto;
+  width: 345px;
+  margin: 60px;
+  display: inline-block;
+}
+h3 {
+  margin-top: 60px;
+  width: 800px;
+  display: inline;
+  position: absolute;
+}
+.itemtext {
+  margin-top: 120px;
+  width: 800px;
+  display: inline;
+  position: absolute;
+  font-size: 18px;
+}
+.price {
+  margin-top: 325px;
+  width: 800px;
+  display: inline;
+  position: absolute;
+  font-size: 20px;
+}
+.buylink {
+  margin-top: 365px;
+  width: 54px;
+  height: 25px;
+  display: inline;
+  position: absolute;
+  font-size: 14px;
+  /* font-weight: bold; */
+  background-color: #eb5a5a;
+  padding: 2px 14px;
+  color: white;

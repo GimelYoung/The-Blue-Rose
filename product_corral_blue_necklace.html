@@ -4,6 +4,7 @@
   <title> The Blue Rose </title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="style_bluerose.css">
+  <link rel="stylesheet" href="style_productpage.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
@@ -13,64 +14,46 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <style>
-  .productdisplay {
-    height: 700px;
-    margin: 0px 60px;
-    padding: 20px 0px;
-    /* height: auto;
-    display: flex;
-    justify-content: space-between; */
-  }
-  .product1 {
+
+  .product {
     height: auto;
-    width: 100%;
-    max-width: 635px;
-    margin: auto;
-    float: left;
-    padding: 20px 0px;
+    width: 345px;
+    margin: 60px;
+    display: inline-block;
   }
-  .product2 {
-    height: auto;
-    width: 100%;
-    max-width: 635px;
-    margin: auto;
-    float: right;
-    padding: 20px 0px;
-  }
-  .new1 {
+  h3 {
+    margin-top: 60px;
+    width: 800px;
+    display: inline;
     position: absolute;
-    font-size: 30px;
-    margin: 250px 0px 0px 203px;
-    color: white;
-    text-align: center;
   }
-  .new2 {
+  .itemtext {
+    margin-top: 120px;
+    width: 800px;
+    display: inline;
     position: absolute;
-    font-size: 30px;
-    margin: 250px 0px 0px 848px;
+    font-size: 18px;
+  }
+  .price {
+    margin-top: 325px;
+    width: 800px;
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+  }
+  .buylink {
+    margin-top: 365px;
+    width: 54px;
+    height: 25px;
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    /* font-weight: bold; */
+    background-color: #eb5a5a;
+    padding: 2px 14px;
     color: white;
-    text-align: center;
-    }
-    .link1 {
-      position: absolute;
-      font-size: 20px;
-      margin: 575px 0px 0px -395px;
-      border: solid;
-      padding: 10px;
-      border-color: white;
-      color: white;
-      background-color: rgba(62, 60, 60, .4);
-    }
-    .link2 {
-      position: absolute;
-      font-size: 20px;
-      margin: 575px 0px 0px 246px;
-      border: solid;
-      padding: 10px;
-      border-color: white;
-      color: white;
-      background-color: rgba(62, 60, 60, .4);
-    }
+  }
+
 </style>
 
 </head>
@@ -101,12 +84,11 @@
   </div>
 
   <div class="productdisplay">
-    <img src="204d9ea0dd11c66e2442f061d3b881fb.jpg" class="product1">
-    <div class="new1"> NEW ARRIVALS </div>
-    <a href="product_gray_bracelet.html" class="link1"><p> TAKE A LOOK </p></a>
-    <img src="c11e083c7ea8ec963eed81f2ff4133062.jpg" class="product2">
-    <div class="new2"> NEW ARRIVALS </div>
-    <a href="product_corral_blue_necklace.html" class="link2"><p> TAKE A LOOK </p></a>
+    <img src="c11e083c7ea8ec963eed81f2ff4133062.jpg" class="product">
+    <h3> Gray Bracelet with Silver Feather </h3>
+    <p class="itemtext"> This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.  This is the details of the necklace.</p>
+    <p class="price"> Price: $100.00 </p>
+    <div href="#" class="buylink"> BUY </div>
   </div>
 
   <div class="socialmediabar">

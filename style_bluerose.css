@@ -1,0 +1,173 @@
+body {
+  min-width: 1400px;
+}
+.sitebody {
+  width: 1400px;
+  margin: auto;
+}
+header {
+  background-color: black;
+  height: 60px;
+}
+.headerinfo {
+  width: 500px;
+  padding-top: 20px;
+}
+.headerlinks {
+  color: white;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.firstlink {
+  margin-left: 60px;
+}
+.bar {
+  display: inline;
+  padding: 10px;
+}
+.callus {
+  display: inline;
+  float: right;
+  color: white;
+  padding-right: 60px;
+  margin-top: -20px;
+  width: 220px;
+}
+.maincontent {
+  margin: 60px 60px 0px 60px;
+}
+.logo {
+  height: auto;
+  width: 330px;
+}
+.navigationbar {
+  background-color: #c9c9c9;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.navlinks {
+  font-size: 24px;
+  color: #232121;
+}
+ul {
+  list-style: none;
+  padding: 15px 60px;
+  margin: 0;
+}
+li {
+  text-align: center;
+}
+p {
+  display: inline;
+}
+.productdisplay {
+  height: 700px;
+  margin: 0px 60px;
+  padding: 20px 0px;
+  /* height: auto;
+  display: flex;
+  justify-content: space-between; */
+}
+    .socialmediabar {
+      height: 50px;
+      border-top: solid;
+      border-top-color: rgba(201, 201, 201, 0.5);
+      border-width: 1px;
+      margin: 0px 60px;
+      clear: both;
+    }
+    .socialmedia {
+      padding-top: 16px;
+    }
+    .facebook {
+      height: 20px;
+      width: 24px;
+      background-image: url(Black_Social_Media_Icons.png);
+      background-position: -13px -4px;
+      margin-top: -10px;
+      margin-left: 20px;
+      padding: 0px 15px 0px 13px;
+    }
+    .twitter {
+      height: 28px;
+      width: 30px;
+      background-image: url(Black_Social_Media_Icons.png);
+      background-position: -30px 0px;
+      margin-top: -10px;
+      margin-left: 0px;
+      padding: 0px 24px 0px 15px;
+    }
+    .google {
+      height: 28px;
+      width: 30px;
+      background-image: url(Black_Social_Media_Icons.png);
+      background-position: 375px -27px;
+      margin-top: -10px;
+      margin-left: 10px;
+      padding: 0px 15px 0px 15px;
+    }
+    .instagram {
+      height: 28px;
+      width: 30px;
+      background-image: url(Black_Social_Media_Icons.png);
+      background-position: -286px -28px;
+      margin-top: -10px;
+      margin-left: 10px;
+      padding: 0px 15px 0px 15px;
+    }
+    .pinterest {
+      height: 28px;
+      width: 30px;
+      background-image: url(Black_Social_Media_Icons.png);
+      background-position: 245px 0px;
+      margin-top: -10px;
+      margin-left: 10px;
+      padding: 0px 24px 0px 15px;
+    }
+
+    .fields {
+      float: right;
+      margin-top: -25px;
+    }
+    .email {
+      width: 300px;
+      height: 28px;
+      font-size: 12px;
+      padding-left: 10px;
+    }
+    .button {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 4px 30px 4px;
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-color: black;
+    height: 28px;
+    }
+
+    footer {
+      height: 50px;
+      border-top: solid;
+      border-top-color: rgba(201, 201, 201, 0.5);
+      border-width: 1px;
+      margin: 0px 60px;
+    }
+    .copyright {
+      padding-top: 15px;
+    }
+    .gylogo {
+    height: auto;
+    width: 71px;
+    }
+    .line {
+      padding: 0px 10px 0px 10px;
+    }
