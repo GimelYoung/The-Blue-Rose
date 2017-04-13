@@ -12,10 +12,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <style>
   body {
-    min-width: 1000px;
+    min-width: 1400px;
   }
   .sitebody {
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
   }
   header {
@@ -48,7 +48,7 @@
   }
   .maincontent {
     margin: 60px 60px 0px 60px;
-}
+  }
   .logo {
     height: auto;
     width: 330px;
@@ -64,41 +64,73 @@
     color: #232121;
   }
   ul {
-      list-style: none;
-      padding: 15px 60px;
-      margin: 0;
+    list-style: none;
+    padding: 15px 60px;
+    margin: 0;
+  }
+  li {
+    text-align: center;
+  }
+  p {
+    display: inline;
+  }
+  .productdisplay {
+    height: 700px;
+    margin: 0px 60px;
+    padding: 20px 0px;
+    /* height: auto;
+    display: flex;
+    justify-content: space-between; */
+  }
+  .product1 {
+    height: auto;
+    width: 100%;
+    max-width: 635px;
+    margin: auto;
+    float: left;
+    padding: 20px 0px;
+  }
+  .product2 {
+    height: auto;
+    width: 100%;
+    max-width: 635px;
+    margin: auto;
+    float: right;
+    padding: 20px 0px;
+  }
+  .new1 {
+    position: absolute;
+    font-size: 30px;
+    margin: 250px 0px 0px 203px;
+    color: white;
+    text-align: center;
+  }
+  .new2 {
+    position: absolute;
+    font-size: 30px;
+    margin: 250px 0px 0px 848px;
+    color: white;
+    text-align: center;
     }
-    p {
-      display: inline;
-    }
-    .productdisplay {
-      max-height: 700px;
-      margin: 0px 60px;
-      padding: 20px 0px;
-      /* height: auto;
-      display: flex;
-      justify-content: space-between; */
-    }
-    .product {
-      height: auto;
-      width: 49%;
-      margin: auto;
-    }
-    .new {
-      position: absolute;
-      font-size: 30px;
-      margin: -375px 0px 0px 0px;
-      color: white;
-      text-align: center;
-    }
-    .link {
+    .link1 {
       position: absolute;
       font-size: 20px;
-      margin: -75px 250px 0px 250px;
+      margin: 575px 0px 0px -395px;
       border: solid;
       padding: 10px;
       border-color: white;
       color: white;
+      background-color: rgba(62, 60, 60, .4);
+    }
+    .link2 {
+      position: absolute;
+      font-size: 20px;
+      margin: 575px 0px 0px 246px;
+      border: solid;
+      padding: 10px;
+      border-color: white;
+      color: white;
+      background-color: rgba(62, 60, 60, .4);
     }
 
     .socialmediabar {
@@ -107,6 +139,7 @@
       border-top-color: rgba(201, 201, 201, 0.5);
       border-width: 1px;
       margin: 0px 60px;
+      clear: both;
     }
     .socialmedia {
       padding-top: 16px;
@@ -165,6 +198,7 @@
       width: 300px;
       height: 28px;
       font-size: 12px;
+      padding-left: 10px;
     }
     .button {
     text-align: center;
@@ -225,25 +259,19 @@
         <a href="#" class="navlinks"> <li> HOME </li> </a>
         <a href="#" class="navlinks"> <li> NEW ARRIVALS </li> </a>
         <a href="#" class="navlinks"> <li> NECKLACES </li> </a>
-        <a href="#" class="navlinks"> <li> BRACELETS </li> <a>
+        <a href="#" class="navlinks"> <li> BRACELETS </li> </a>
         <a href="#" class="navlinks"> <li> EARINGS </li> </a>
     </ul>
   </div>
 
   <div class="productdisplay">
-
-  <div>
-    <img src="204d9ea0dd11c66e2442f061d3b881fb.jpg" class="product">
-    <div class="new"> NEW ARRIVALS </div>
-    <div class="link"> TAKE A LOOK </div>
+    <img src="204d9ea0dd11c66e2442f061d3b881fb.jpg" class="product1">
+    <div class="new1"> NEW ARRIVALS </div>
+    <a href="#" class="link1"><p> TAKE A LOOK </p></a>
+    <img src="c11e083c7ea8ec963eed81f2ff4133062.jpg" class="product2">
+    <div class="new2"> NEW ARRIVALS </div>
+    <a href="#" class="link2"><p> TAKE A LOOK </p></a>
   </div>
-  <div>
-    <img src="c11e083c7ea8ec963eed81f2ff4133062.jpg" class="product">
-    <div class="new"> NEW ARRIVALS </div>
-    <div class="link"> TAKE A LOOK </div>
-  </div>
-
-</div>
 
   <div class="socialmediabar">
     <div class="socialmedia">
