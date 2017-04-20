@@ -28,7 +28,7 @@
 }
 .buylink {
   margin-top: 365px;
-  width: 125px;
+  /* width: 125px; */
   height: 25px;
   display: inline;
   position: absolute;

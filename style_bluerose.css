@@ -16,14 +16,17 @@ header {
 .headerlinks {
   color: white;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 0px;
+}
+.headerlinks:hover {
+  color: white;
 }
 .firstlink {
   margin-left: 60px;
 }
 .bar {
   display: inline;
-  padding: 10px;
+  padding: 0px;
 }
 .callus {
   display: inline;
@@ -41,7 +44,7 @@ header {
   width: 330px;
 }
 .navigationbar {
-  background-color: #c9c9c9;
+  background-color: #cfcfcf;
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
