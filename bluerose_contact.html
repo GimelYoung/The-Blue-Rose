@@ -13,65 +13,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <style>
-  .productdisplay {
-    height: 700px;
-    margin: 0px 60px;
-    padding: 20px 0px;
-    /* height: auto;
-    display: flex;
-    justify-content: space-between; */
-  }
-  .product1 {
-    height: auto;
-    width: 100%;
-    max-width: 635px;
-    margin: auto;
-    float: left;
-    padding: 20px 0px;
-  }
-  .product2 {
-    height: auto;
-    width: 100%;
-    max-width: 635px;
-    margin: auto;
-    float: right;
-    padding: 20px 0px;
-  }
-  .new1 {
-    position: absolute;
-    font-size: 30px;
-    margin: 250px 0px 0px 203px;
-    color: white;
-    text-align: center;
-  }
-  .new2 {
-    position: absolute;
-    font-size: 30px;
-    margin: 250px 0px 0px 848px;
-    color: white;
-    text-align: center;
-    }
-    .link1 {
-      position: absolute;
-      font-size: 20px;
-      margin: 575px 0px 0px -395px;
-      border: solid;
-      padding: 10px;
-      border-color: white;
-      color: white;
-      background-color: rgba(62, 60, 60, .4);
-    }
-    .link2 {
-      position: absolute;
-      font-size: 20px;
-      margin: 575px 0px 0px 246px;
-      border: solid;
-      padding: 10px;
-      border-color: white;
-      color: white;
-      background-color: rgba(62, 60, 60, .4);
+    .required {
+      display: inline;
+      color: red;
     }
 </style>
+
+<script>
+$(document).ready(function() {
+    $('#emailAddressHtml5Form').formValidation();
+});
+</script>
 
 </head>
 
@@ -109,23 +61,34 @@
       <legend></legend>
 
       <div class="control-group">
-        <label class="control-label" for="textinput">Name</label>
+        <label class="control-label" for="textinput">Name</label> <div class="required">*</div>
         <div class="controls">
-          <input id="textinput" name="textinput" type="text" placeholder="Full_Name" class="input-xlarge" required="">
+          <input id="textinput" name="textinput" type="text" class="input-xlarge" required="">
         </div>
       </div>
       <br>
       <div class="control-group">
-        <label class="control-label" for="textinput">Email</label>
-        <div class="controls">
-          <input id="textinput" name="textinput" type="text" placeholder="Email" class="input-xlarge">
-        </div>
+        <form id="emailAddressHtml5Form" class="form-horizontal"
+            data-fv-framework="bootstrap"
+            data-fv-icon-valid="glyphicon glyphicon-ok"
+            data-fv-icon-invalid="glyphicon glyphicon-remove"
+            data-fv-icon-validating="glyphicon glyphicon-refresh">
+            <label class="control-label" for="textinput">Email</label> <div class="required">*</div>
+            <div class="controls">
+
+              <input id="textinput" name="email" type="email" class="input-xlarge" required=""
+              data-fv-emailaddress-message="The value is not a valid email address" />
+            </div>
+
+        </form>
+
+
       </div>
       <br>
       <div class="control-group">
         <label class="control-label" for="textinput">Phone</label>
     <div class="controls">
-      <input id="textinput" name="textinput" type="text" placeholder="Telephone_Number" class="input-xlarge" required="">
+      <input id="textinput" name="textinput" type="text" class="input-xlarge">
     </div>
   </div>
   <br>
@@ -142,9 +105,9 @@
   </div>
   <br>
   <div class="control-group">
-    <label class="control-label" for="textarea">Comment/Questions</label>
+    <label class="control-label" for="textarea">Comment/Questions</label> <div class="required">*</div>
     <div class="controls">
-      <textarea id="textarea" name="textarea" rows="5" cols="50" class="form-input"></textarea>
+      <textarea id="textarea" name="textarea" rows="5" cols="50" class="form-input" required=""></textarea>
     </div>
   </div>
 
@@ -153,10 +116,14 @@
     <div class="controls">
       <button id="singlebutton" name="singlebutton" class="btn btn-info">Submit</button>
     </div>
+    </form>
   </div>
+  <br>
+  <br>
+  <div class="required">*</div> <p>Required Field</p>
 
   </fieldset>
-  </form>
+
   </div>
 
   <div class="socialmediabar">
