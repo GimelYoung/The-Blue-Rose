@@ -44,19 +44,26 @@ header {
   width: 330px;
 }
 .navigationbar {
-  background-color: #cfcfcf;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 .navlinks {
   font-size: 24px;
   color: #232121;
+  background-color: #cfcfcf;
+  height: 60px;
+  width: 256px;
+  padding-top: 15px;
 }
+
+.navlinks:hover {
+  background-color: #8fc8f4;
+}
+
 ul {
   list-style: none;
-  padding: 15px 60px;
-  margin: 0;
+  -webkit-padding-start: 0px;
 }
 li {
   text-align: center;
